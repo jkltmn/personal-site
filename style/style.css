@@ -43,31 +43,35 @@ body {
     text-align: center;
 }
 
-.contact-button {
-    background-color: #ffffff;
-    margin: 2px;
-    padding: 8px;
-    border-radius: 10px;
-    text-align: center;
-
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-
-.contact-button > a, a:visited {
+a, a:visited {
     color: inherit;
 }
 
+.contact-button{
+    background-color: hsl(0, 0%, 100%);
+
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+
+    margin: 2px;
+    padding: 8px;
+    border-radius: 10px;
+
+    transition: transform 250ms, background-color 0.25s ease;
+}
+
 .contact-button:hover {
-    background-color: #c9c9c9;
+    background-color: #e7e7e7;
     cursor: pointer;
+    transform: translateY(-5px);
 }
 
 #email-box {
     margin-top: 20px;
     text-align: center;
-    display: none;
+    visibility: hidden;
 }
 
 #email-content {

@@ -12,7 +12,7 @@
             var emailAddr = ["a","m","R","r","Y","W","x","0","b","W","F","u","Q","G","d","t","Y","W","l","s","L","m","N","v","b","Q","=","="];
             function revealEmailAddress() {
                 document.getElementById("email-addr-content").innerHTML=atob(emailAddr.join(""));
-                document.getElementById("email-box").style.display = "block";
+                document.getElementById("email-box").style.visibility = "visible";
             }
         </script>
     </head>
@@ -24,33 +24,26 @@
                     JOSH KALTMAN
                 </div>  
             </div>
-            <div class="name-box-bar"></div>          
+            <div class="name-box-bar">
+            </div>          
 
             
             <div class="contact">
-                <div class="contact-button" onclick="revealEmailAddress()">
+                <a class="contact-button" onclick="revealEmailAddress()">
                     <i class="far fa-envelope"></i>
-                </div>
-                <div class="contact-button">
-                    <a href="https://www.facebook.com/jkaltman/">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </div>
-                <div class="contact-button">
-                    <a href="https://www.instagram.com/jkltmn/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-                <div class="contact-button">
-                    <a href="https://www.github.com/jkltmn/">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-                <div class="contact-button">
-                    <a href="https://www.linkedin.com/in/josh-kaltman/">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
+                </a>
+                <a class="contact-button" href="https://www.facebook.com/jkaltman/">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="contact-button" href="https://www.instagram.com/jkltmn/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="contact-button" href="https://www.github.com/jkltmn/">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a class="contact-button" href="https://www.linkedin.com/in/josh-kaltman/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
             </div>
 
             <div id="email-box">
