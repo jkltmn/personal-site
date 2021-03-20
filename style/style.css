@@ -1,0 +1,83 @@
+body {
+    background-color: #2d2d31;
+    opacity: 1;
+    background: linear-gradient(135deg, #0e0e0e55 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #0e0e0e 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #0e0e0e55 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #0e0e0e 25%, #2d2d31 25%) 0px 0/ 40px 40px;
+}
+
+.center-box {
+    font-family: Alcubierre, sans-serif;
+
+    min-width: 450px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.name-box {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.sub-box {
+    /* background-color: #dddddd55; */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#big-name {
+    font-size: 5em;
+    text-align: center;
+    color: #000000;
+    margin-bottom: -15px;
+}
+
+.contact {
+    margin : 20px 0 0 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.contact-button {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.contact-button > a, a:visited {
+    color: inherit;
+}
+
+.contact-button:hover {
+    background-color: #c9c9c9;
+    cursor: pointer;
+}
+
+#email-box {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+#email-content {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#email-addr-content {
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: Alcubierre;
+    src: url("Alcubierre.otf") format("opentype");
+}
