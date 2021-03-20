@@ -7,27 +7,18 @@ body {
 
 .center-box {
     font-family: Alcubierre, sans-serif;
-
-    /* min-width: 450px; */
-
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
 .name-box {
     background-color: #ffffff;
     padding: 10px;
-
-    border-bottom: 6px solid transparent;
-    border-image: linear-gradient(to right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;
 }
 
 .sub-box {
-    /* background-color: #dddddd55; */
     font-size: 1.5em;
     text-align: center;
 }
