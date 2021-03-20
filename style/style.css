@@ -7,7 +7,7 @@ body {
 .center-box {
     font-family: Alcubierre, sans-serif;
 
-    min-width: 450px;
+    /* min-width: 450px; */
 
     position: fixed;
     top: 50%;
@@ -42,8 +42,8 @@ body {
 
 .contact-button {
     background-color: #ffffff;
-    margin: 5px;
-    padding: 10px;
+    margin: 2px;
+    padding: 8px;
     border-radius: 10px;
     text-align: center;
 
